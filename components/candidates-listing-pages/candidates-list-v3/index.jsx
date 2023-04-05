@@ -20,13 +20,7 @@ const Index = () => {
       <MobileMenu />
       {/* End MobileMenu */}
 
-      <section className="page-title style-two">
-        <div className="auto-container">
-          <JobSearchForm />
-          {/* <!-- Job Search Form --> */}
-        </div>
-      </section>
-      {/* <!--End Page Title--> */}
+
 
       <section className="ls-section">
         <div className="auto-container">

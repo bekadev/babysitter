@@ -43,11 +43,7 @@ const DefaulHeader2 = () => {
         {/* End .nav-outer */}
 
         <div className="outer-box">
-          {/* <!-- Add Listing --> */}
-          <Link href="/candidates-dashboard/cv-manager" className="upload-cv">
-            Upload your CV
-          </Link>
-          {/* <!-- Login/Register --> */}
+
           <div className="btn-box">
             <a
               href="#"

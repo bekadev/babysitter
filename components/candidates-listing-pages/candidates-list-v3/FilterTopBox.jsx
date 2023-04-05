@@ -122,7 +122,7 @@ const FilterTopBox = () => {
                         <img src={candidate.avatar} alt="candidates" />
                     </span>
                     <h3 className="name">
-                        <Link href={`/candidates-single-v3/${candidate.id}`}>
+                        <Link href={`/candidates-single-v1/${candidate.id}`}>
                             {candidate.name}
                         </Link>
                     </h3>
@@ -150,7 +150,7 @@ const FilterTopBox = () => {
                     {/* End tags */}
 
                     <Link
-                        href={`/candidates-single-v3/${candidate.id}`}
+                        href={`/candidates-single-v1/${candidate.id}`}
                         className="theme-btn btn-style-three"
                     >
                         View Profile
@@ -319,7 +319,6 @@ const FilterTopBox = () => {
             <div className="row">{content}</div>
             {/* End .row */}
 
-            <Pagination />
             {/* <!-- Listing Show More --> */}
         </>
     );

@@ -46,14 +46,14 @@ const HeaderNavContent = () => {
                             <li
                                 className={
                                     isActiveLink(
-                                        "/employers-dashboard/dashboard",
+                                        "/employers-dashboard/post-jobs",
                                         router.asPath
                                     )
                                         ? "current"
                                         : ""
                                 }
                             >
-                                <Link href="/employers-dashboard/dashboard">
+                                <Link href="/employers-dashboard/post-jobs">
                                     Employers Dashboard
                                 </Link>
                             </li>
@@ -64,7 +64,7 @@ const HeaderNavContent = () => {
                     <li
                         className={`${
                             isActiveParent(candidateItems, router.asPath) ||
-                            router.asPath === "/candidates-dashboard/dashboard"
+                            router.asPath === "/candidates-dashboard/post-jobs"
                                 ? "current"
                                 : ""
                                 ? "current"
