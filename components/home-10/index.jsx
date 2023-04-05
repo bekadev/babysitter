@@ -48,6 +48,32 @@ const index = () => {
       {/* <!-- End Registeration Banners --> */}
 
 
+        <section className="job-section-five style-two">
+            <div className="auto-container">
+                <div className="row" data-aos="fade-up">
+                    <div className="featured-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
+                        <div className="sec-title">
+                            <h2>Featured Jobs</h2>
+                            <div className="text">
+                                Know your worth and find the job that qualify your life
+                            </div>
+                        </div>
+                        {/* En .sect-title */}
+
+                        <div className="outer-box">
+                            <JobFeatured7 />
+                        </div>
+                        {/* En outer box */}
+                    </div>
+                    {/* End .featured-column */}
+
+
+                </div>
+                {/* End .row */}
+            </div>
+        </section>
+        {/* <!-- End Job Section --> */}
+
 
       <section className="candidates-section alternate">
         <div className="auto-container">
