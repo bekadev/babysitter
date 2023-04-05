@@ -2,18 +2,18 @@ const FormContent = () => {
   return (
     <form method="post" action="add-parcel.html">
       <div className="form-group">
-        <label>Email Address</label>
-        <input type="email" name="username" placeholder="Username" required />
+        <label>Phone</label>
+        <input type="text" name="phone" placeholder="+7 701 777 44 33" required />
       </div>
       {/* name */}
 
       <div className="form-group">
-        <label>Password</label>
+        <label>SMS</label>
         <input
           id="password-field"
           type="password"
           name="password"
-          placeholder="Password"
+          placeholder="sms-code"
         />
       </div>
       {/* password */}

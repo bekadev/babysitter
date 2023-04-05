@@ -4,11 +4,11 @@ const CopyrightFooter = () => {
       <p>
         © {new Date().getFullYear()} Superio by{" "}
         <a
-          href="https://themeforest.net/user/ib-themes"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          ib-themes
+          babysitter
         </a>
         . All Right Reserved.
       </p>

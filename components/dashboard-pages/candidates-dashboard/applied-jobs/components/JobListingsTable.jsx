@@ -7,16 +7,7 @@ const JobListingsTable = () => {
       <div className="widget-title">
         <h4>My Applied Jobs</h4>
 
-        <div className="chosen-outer">
-          {/* <!--Tabs Box--> */}
-          <select className="chosen-single form-select">
-            <option>Last 6 Months</option>
-            <option>Last 12 Months</option>
-            <option>Last 16 Months</option>
-            <option>Last 24 Months</option>
-            <option>Last 5 year</option>
-          </select>
-        </div>
+
       </div>
       {/* End filter top bar */}
 
@@ -25,14 +16,7 @@ const JobListingsTable = () => {
         <div className="table-outer">
           <div className="table-outer">
             <table className="default-table manage-job-table">
-              <thead>
-                <tr>
-                  <th>Job Title</th>
-                  <th>Date Applied</th>
-                  <th>Status</th>
-                  <th>Action</th>
-                </tr>
-              </thead>
+
 
               <tbody>
                 {jobs.slice(0, 4).map((item) => (
@@ -64,24 +48,7 @@ const JobListingsTable = () => {
                         </div>
                       </div>
                     </td>
-                    <td>Dec 5, 2020</td>
-                    <td className="status">Active</td>
-                    <td>
-                      <div className="option-box">
-                        <ul className="option-list">
-                          <li>
-                            <button data-text="View Aplication">
-                              <span className="la la-eye"></span>
-                            </button>
-                          </li>
-                          <li>
-                            <button data-text="Delete Aplication">
-                              <span className="la la-trash"></span>
-                            </button>
-                          </li>
-                        </ul>
-                      </div>
-                    </td>
+
                   </tr>
                 ))}
               </tbody>

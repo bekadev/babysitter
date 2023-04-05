@@ -114,19 +114,14 @@ const FilterTopBox = () => {
                 key={candidate.id}
             >
                 <div className="inner-box">
-                    <ul className="job-other-info">
-                        <li className="green">Featured</li>
-                    </ul>
 
-                    <span className="thumb">
-                        <img src={candidate.avatar} alt="candidates" />
-                    </span>
+
                     <h3 className="name">
                         <Link href={`/candidates-single-v1/${candidate.id}`}>
                             {candidate.name}
                         </Link>
                     </h3>
-                    <span className="cat">{candidate.designation}</span>
+
 
                     <ul className="job-info">
                         <li>

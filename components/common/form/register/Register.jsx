@@ -37,13 +37,6 @@ const Register = () => {
       </Tabs>
       {/* End form-group */}
 
-      <div className="bottom-box">
-        <div className="divider">
-          <span>or</span>
-        </div>
-        <LoginWithSocial />
-      </div>
-      {/* End bottom-box LoginWithSocial */}
     </div>
   );
 };
